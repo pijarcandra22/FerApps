@@ -3,11 +3,8 @@ import base64
 from io import BytesIO
 from PIL import Image
 import numpy as np
-from skimage import color
 import cv2
-import os
 import tensorflow as tf
-from tensorflow import keras
 import json
 
 app = Flask(__name__)
