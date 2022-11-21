@@ -1,0 +1,38 @@
+#video-webcam{
+  width: 50vh;
+  height: 50vh;
+  border-radius: 50%;
+  border: solid #f9ad0a 20px;
+}
+
+#background{
+  height: 100vh;
+  width: 100%;
+  background-image: url('/static/image/background.png');
+  background-position: center;
+  background-size: cover;
+}
+
+#btn-yellow{
+  background-color: #f9ad0a;
+  font-family: Bungee;
+  color: white;
+}
+
+.titbar{
+  text-align: left;
+  font-family: Bungee;
+  color: white;
+}
+
+.progBar{
+  height: 100%;
+  width: 70%;
+}
+
+@media (max-width: 576px){
+  #video-webcam{
+    width: 80vw;
+    height: 80vw;
+  }
+}
