@@ -10,7 +10,7 @@ import json
 app = Flask(__name__)
 app = Flask(__name__,template_folder='template')
 
-model = tf.keras.models.load_model("model/model hsn.h5")
+model = tf.keras.models.load_model("model/model hss.h5")
 
 @app.route('/')
 def index():
