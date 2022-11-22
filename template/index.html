@@ -123,7 +123,7 @@
           console.log(response)
           $("#happy").css({'background':'linear-gradient(90deg, #f9ad0a 0%, #f9ad0a '+response['happy'].toString()+'%, rgba(228, 0, 0, 0) '+response['happy'].toString()+'%)'})
           $("#sad").css({'background':'linear-gradient(90deg, #f9ad0a 0%, #f9ad0a '+response['sad'].toString()+'%, rgba(228, 0, 0, 0) '+response['sad'].toString()+'%)'})
-          $("#neutral").css({'background':'linear-gradient(90deg, #f9ad0a 0%, #f9ad0a '+response['neutral'].toString()+'%, rgba(228, 0, 0, 0) '+response['neutral'].toString()+'%)'})
+          $("#surprise").css({'background':'linear-gradient(90deg, #f9ad0a 0%, #f9ad0a '+response['neutral'].toString()+'%, rgba(228, 0, 0, 0) '+response['neutral'].toString()+'%)'})
         },
         error: function(error){
           console.log(error);
